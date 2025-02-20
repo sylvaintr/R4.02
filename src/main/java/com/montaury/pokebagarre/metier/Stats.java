@@ -7,6 +7,7 @@ public class Stats {
   public Stats(int attaque, int defense) {
     this.attaque = attaque;
     this.defense = defense;
+
   }
 
   public int getAttaque() {
