@@ -29,5 +29,5 @@ jobs:
         if: success() || failure()
         with:
              name: JUnit Tests
-             path: build/test-results/test/TEST-*.xml 
+             path: build/test-results/test/TEST-com.montaury.pokebagarre.ui.PokeBagarreAppTest.xml
              reporter: java-junit       
